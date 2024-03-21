@@ -1,0 +1,142 @@
+:root {
+    font-size: 62.5%;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(104, 104, 104);
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    max-width: 1200px;
+    background-color: white;
+}
+
+div.left-side{
+    background-image: url(img/girl-gym.jpg);
+    width: 40%;
+    height: 100vh;
+    background-size: 70vh;
+    background-position: center;
+    position: relative;
+}
+
+div.logo-wrapper{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+}
+
+.logo{
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+div.right-side{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.right-top,
+div.right-bot{
+    background-color: rgb(247, 247, 247);
+}
+
+
+div.right-top{
+    display: flex;
+    flex-grow: 5;
+    align-items: end;
+    font-weight: bold;
+}
+
+div.right-mid{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 5px 10px rgb(190, 190, 190);
+    margin-bottom: 5px;
+}
+
+div.right-bot{
+    display: flex;
+    flex-grow: 5;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.form-text,
+.form-title{
+    margin-left: 30px;
+    font-size: 2em;
+
+}
+
+input{
+  width: 200px;
+  height: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  min-width: 100px
+}
+
+input:focus{
+    border: 1.5px solid rgb(76, 156, 221);
+    outline: none;
+    box-shadow: 1px 2px 3px rgb(211, 211, 211);
+  }
+
+button{
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 14px;
+    height: 42px;
+    background-color: rgb(230, 189, 180);
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 7px;
+    box-shadow: 1px 2px 3px rgb(211, 211, 211);
+}
+
+a{
+    color: rgb(231, 164, 148);
+    font-weight: bold;
+    text-decoration:none
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.5rem;
+}
