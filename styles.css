@@ -140,3 +140,21 @@ a{
 p{
     font-size: 1.5rem;
 }
+
+.error{
+    width: 200px;
+    height: 20px;
+    border: 1px solid rgb(247, 0, 0);
+    min-width: 100px
+}
+
+#error-text{
+    color: red;
+}
+
+.correct{
+    width: 200px;
+    height: 20px;
+    border: 1px solid rgb(29, 247, 0);
+    min-width: 100px
+}
